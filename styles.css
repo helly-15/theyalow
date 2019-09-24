@@ -1,0 +1,35 @@
+.wrapper1{
+    height:30.52vh;
+    width: 100vw;
+    background: url('./assets/background1.svg');
+    background-size: cover;
+    
+}
+.wrapper2{
+    height:11.6vh;
+    width:100vw;
+
+}
+.wrapper3{
+    height:27.44vh;
+    width: 100vw;
+    background: url('./assets/background3.png');
+    background-size: cover;
+    
+}
+.wrapper4{
+    height:26.49vh;
+    width: 100vw;
+    background: url('./assets/background4.png');
+    background-size: cover;
+    
+}
+.wrapper5{
+    height:3.45vh;
+    width: 100vw;
+    background: #4c4c4c;
+    background-size: cover;
+    border-top: 0.5vh solid #000;
+}
+    
+
