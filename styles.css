@@ -1,35 +1,120 @@
 .wrapper1{
-    height:30.52vh;
-    width: 100vw;
+    height:560px;
+    width: 1300px;
     background: url('./assets/background1.svg');
     background-size: cover;
     
+    
 }
 .wrapper2{
-    height:11.6vh;
-    width:100vw;
+    height:215px;
+    widows: 1300px;;
 
 }
 .wrapper3{
-    height:27.44vh;
-    width: 100vw;
+    height:500px;
+    width: 1300px;
     background: url('./assets/background3.png');
     background-size: cover;
     
 }
 .wrapper4{
-    height:26.49vh;
-    width: 100vw;
+    height:500px;
+    width: 1300px;
     background: url('./assets/background4.png');
     background-size: cover;
     
 }
 .wrapper5{
-    height:3.45vh;
-    width: 100vw;
+    height:67px;
+    width: 1300px;
     background: #4c4c4c;
     background-size: cover;
-    border-top: 0.5vh solid #000;
+    border-top: 3px solid #000;
+}
+.header {
+    display:flex;
+    justify-content:space-between;
+    
+
+}
+.navbar{
+    margin: 73px 140px 0 0;
+}
+.navbar ul{
+    width: 453px;
+height: 41px;
+background-image: linear-gradient(0deg, #f5c505 0%, #f5c505 100%);
+opacity:0,5;
+display:flex;
+}
+.navbar ul li{ 
+    width: 150px;
+    height: 41px;
+    text-align:center;
+    }
+.navbar ul li a{ 
+    text-decoration: none;
+    display:block;
+    height: 41px;
+    width: 150px;
+    line-height: 41px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    letter-spacing: 0px;
+    color: #9b7d08;
+
+}
+.middlelink {
+    border-left: 1px solid rgba(161, 130, 8, 0.3);
+    border-right: 1px solid rgba(161, 130, 8, 0.3);
+}
+.logo {
+    font-size: 41px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-align: center;
+    margin: 30px 0 0 135px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 81px;
+   
+}
+.logo img {
+   height: 81px; 
+   width: 81px;
+}
+.parrots{
+    display:flex;
+    font-size: 63px;
+    letter-spacing: 1px;
+    color: white;
+    font-family: "Asap";
+    font-weight: 400;
+    text-align: center;
+}
+.parrots ul li {
+    color: #f5c506;
+}
+.parrots video{
+    margin: 46px 50px 80px 115px;
+}
+.parrots ul {
+    margin: 145px 0 180px 0;
+}
+.controlleft{
+    margin: 185px 0 210px 0;
+}
+.controlright{
+    
+    margin: 185px 0 210px 127px;
 }
     
 
+    
+    
+    
+    
