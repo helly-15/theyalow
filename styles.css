@@ -30,7 +30,7 @@
     
 }
 .wrapper5{
-    height:67px;
+    height:65px;
     width: 1300px;
     background: #4c4c4c;
     
@@ -253,6 +253,35 @@
     position: absolute;
     bottom: 20px;
     left:210px;
+}
+.wrapper4 p{
+    width: 918px;
+    height: 130px;
+    font-size: 43px;
+    letter-spacing: 0px;
+    color: #f5c506;
+    font-family: "PT Sans";
+    font-weight: 400;
+    margin-left: 355px;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+.comp{
+    margin-left:140px;
+    margin-top: -70px;
+}
+.wrapper5 div{
+    font-size: 29px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-align: center;
+    margin: 10px 0 0 135px;
+    display: flex;
+    align-items: center;
+    
+    height: 53px;
 }
     
     
