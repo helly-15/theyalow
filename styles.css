@@ -4,43 +4,33 @@
     background: url('./assets/background1.svg');
     background-size: cover;
     text-transform: uppercase;
-    
-    
 }
 .wrapper2{
     height:215px;
-    widows: 1300px;
+    width: 1300px;
     display: flex;
     text-transform: uppercase;
-
 }
 .wrapper3{
     height:500px;
     width: 1300px;
     background: url('./assets/background3.png');
     position: relative;
-    
-    
 }
 .wrapper4{
     height:500px;
     width: 1300px;
     background: url('./assets/background4.png');
-    
-    
 }
 .wrapper5{
     height:65px;
     width: 1300px;
     background: #4c4c4c;
-    
     border-top: 3px solid #000;
 }
 .header {
     display:flex;
     justify-content:space-between;
-    
-
 }
 .navbar{
     margin: 73px 140px 0 0;
@@ -52,7 +42,6 @@
     opacity:0,5;
     display:flex;
     box-shadow: -7px -5px 0px 0px rgba(177, 143, 22, 0.658),-14px -10px 0px 0px rgba(177, 143, 22, 0.658);
-
 }
 .navbar ul li{ 
     width: 150px;
@@ -283,7 +272,105 @@
     
     height: 53px;
 }
+/* Smartphones (вертикальная и горизонтальная ориентация) ----------- */
+@media screen and (min-width : 320px) and (max-width : 480px) {
+    .wrapper1{
+        height:390px;
+        width: 640px;
+    }    
+    .wrapper2{
+        height:182px;
+        width: 640px;
+    }    
+    .wrapper3{
+        height:474px;
+        width: 640px;
+    }
+    .wrapper4{
+        height:465px;
+        width: 640px;
+    }
+    .wrapper5{
+        height:40px;
+        width: 640px;
+    }
+    .header {
+        display:flex;
+        justify-content: left;
+    }
+    .navbar{
+        margin:0 0;
+    }
+    .navbar ul{
+        width: 450px;
+        height: 65px;
+        box-shadow:none;
+    }
+    .navbar ul li{ 
+        height: 65px;
+        }
+    .navbar ul li a{ 
+        height: 65px;
+        line-height: 65px;
+        font-size: 19px;
+    }
+    .logo {
+        font-size: 19px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin:0 0;
+        height: 65px;
+       background-color: #3f3f3d;
+       width: 190px;
+    }
+    .logo img {
+       height: 35px; 
+       width: 40px;
+       background-color: #3f3f3d;
+    }
+    .parrots ul li {
+        display: none;
+    }
+    .parrots video{
+        margin: -20px 0 0 0;
+        width: 640px;
+        height: 325px;
+    }
+    .parrots ul {
+        display: none;
+    }
+    .controlleft{
+       display: none;
+    }
+    .controlright{
+        display: none;
+    }
+    .column1, 
+    .column2, 
+    .column3{
+        width: 213px;
+        height: 178px;
+        font-size: 23px;
+        letter-spacing: 0px;
+        color: #000000;
+        border-left: none;
+        border-right: none;
+        box-shadow: -7px -5px 0px 0px rgba(255, 255, 255, 0.658),-14px -10px 0px 0px rgba(255, 255, 255, 0.658);
+    }
+    .column1{
+        margin-left: 0px;
+        
+    }
+    .column1 img{
+        margin-top:30px; 
+    }
+    .column3{
+        margin-right: 0px;    
+    }
+    .column2 img{
+        margin-top: 30px;
+    }
+    .column3 img{
+        margin-top: 30px;
+    }
     
-    
-    
-    
+}
