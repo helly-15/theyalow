@@ -46,7 +46,7 @@
 .navbar ul li{ 
     width: 150px;
     height: 41px;
-    text-align:center;
+    
     }
 .navbar ul li a{ 
     text-decoration: none;
@@ -63,6 +63,32 @@
     color: white;
     font-weight: 900;
 }
+.navbar img{
+    height:20px;
+    width: 20px;
+}
+#envelope{
+    width: 25px;
+    margin-left: 17px;
+    margin-right: 8px;
+}
+#about{
+    margin-left:40px;
+    margin-right: 10px;
+}
+#services{
+    margin-left: 14px;
+    margin-right: 10px;
+}
+#about-us{
+    width: 160px;
+}
+#services-li{
+    width: 140px;
+}
+.navbartext{
+    display: flex;
+}
 .middlelink {
     border-left: 1px solid rgba(161, 130, 8, 0.3);
     border-right: 1px solid rgba(161, 130, 8, 0.3);
@@ -74,7 +100,7 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: italic;
     text-align: center;
-    margin: 30px 0 0 135px;
+    margin: 40px 0 0 135px;
     display: flex;
     align-items: center;
     justify-content: center;
